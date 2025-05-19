@@ -119,11 +119,3 @@ class MyTestClassCheck(ABC):
         self.first_name = first_name
         self.last_name = last_name
         self.rid = rid
-
-class AgainCheck(MyTestClassCheck):
-   def show_info(self):
-        return f" my {self.first_name} {self.last_name} {self.rid}"
-
-myinfo = AgainCheck()
-
-print(myinfo.show_info())
